@@ -1,0 +1,29 @@
+/* Reflection.txt for COMP112 - 2018T1, Assignment 2
+ * Name: Matthew Corfiatis
+ * Username: CorfiaMatt
+ * ID: 300447277
+ */
+
+Questions for Reflection: 
+=========================
+
+1. What is one thing that you did in this assignment that is similar to the
+previous assignment? Was it easier this time? How did you approach doing it? 
+
+2. Why did the dance method have to have a parameter (the CartoonCharacter face
+parameter)?
+
+3. When using several "if" statements, you can use a sequence of separate "if"
+statements or you can combine them into a longer "if... else if .... else if ...."
+statement.  What's the difference, and which is better?
+
+
+Reflection:
+=========================
+
+One thing that I did similar to the last assesment was creating new instances of classes. In the last assesment I used store multiple bits of information in one variable, but the classes played a bigger role in this assignment. It wasn't much different except this time I stored the objects inside of an array so I could easily pass multiple characters between methods.
+
+The dance method had to have the CartoonCharacter parameter so it would know what object to call the animate methods on. If there was only ever one character on screen, you wouldn't need this parameter.
+
+If you combine multiple "if" statements into an "if else if" block, the next "if" statement will not execute if the current one did execute because the condition matched. This can be useful and more efficient if you do not need all of the statements to be checked. If you need every condition to be checked and executed seperately, you would want to use seperate if statements. 
+Neither of these is better or worse, they each have different use scenarios.
